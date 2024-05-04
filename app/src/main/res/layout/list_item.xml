@@ -7,7 +7,6 @@
 
     <ImageView
         android:id="@+id/flagImage"
-        android:src="@drawable/russia_flag"
         android:layout_width="48dp"
         android:layout_height="40dp"
         android:layout_marginStart="16dp"
@@ -16,27 +15,25 @@
         android:layout_marginEnd="8dp"
         android:contentDescription="@string/flag"
         android:background="@drawable/flag"
-        android:layout_gravity="center_vertical"/>
+        android:layout_gravity="center_vertical" />
 
     <TextView
         android:id="@+id/abbreviation"
         android:layout_width="52dp"
         android:layout_height="30dp"
-        android:textColor="#color/black"
-        android:textSize="24sp"
-        android:text="@string/russianRUB"
-        android:layout_marginRight="6dp"
+        android:layout_gravity="center_vertical"
         android:layout_marginEnd="6dp"
-        android:layout_gravity="center_vertical"/>
+        android:layout_marginRight="6dp"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
 
     <TextView
         android:id="@+id/name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="#color/black"
-        android:textSize="14sp"
-        android:text="@string/russian"
-        android:gravity="center"
         android:layout_gravity="center"
-        android:singleLine="false"/>
+        android:gravity="center"
+        android:singleLine="false"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
 </LinearLayout>

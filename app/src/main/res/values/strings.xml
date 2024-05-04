@@ -1,15 +1,20 @@
 <resources>
     <string name="app_name">Currencies</string>
-    <string name="action_settings">Settings</string>
 
-    <string name="south_africaZAR">ZAR</string>
+    <string name="brazilBRL">BRL</string>
+    <string name="chinaCNY">CNY</string>
+    <string name="japanJPY">JPY</string>
     <string name="russianRUB">RUB</string>
     <string name="singaporeSGD">SGD</string>
+    <string name="south_africaZAR">ZAR</string>
     <string name="turkishTRY">TRY</string>
 
-    <string name="south_africa">South African\nrand</string>
+    <string name="brazil">Brazilian\nreal</string>
+    <string name="china">Renminbi</string>
+    <string name="japan">Japanese\nyen</string>
     <string name="russian">Russian\nrouble</string>
     <string name="singapore">Singapore\ndollar</string>
+    <string name="south_africa">South African\nrand</string>
     <string name="turkish">Turkish\nlira</string>
 
     <string name="flag">flag</string>
